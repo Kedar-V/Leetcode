@@ -36,7 +36,6 @@ class Solution:
             print(board[i])
             
 
-
     def solverHelper(self, board):
         temp = self.findEmptySpot(board)
         if temp == -1:
